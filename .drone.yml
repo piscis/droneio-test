@@ -4,6 +4,7 @@ build:
     - npm install nvm -g
     - apt-get update && apt-get install lftp
     - npm install --production
+    - npm start
   cache:
     mount:
       - node_modules
