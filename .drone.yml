@@ -9,3 +9,7 @@ build:
     mount:
       - node_modules
       - .git
+deploy:
+  bash:
+    script:
+      - echo deploy
