@@ -2,4 +2,5 @@ build:
   image: node:5.2.0
   commands:
     - echo hello world 23456768
-    - node console.log('asdf');
+    - node -e "console.log('asdf');"
+    - node -v
