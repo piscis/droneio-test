@@ -1,3 +1,4 @@
-image: ubuntu:14.04
-script:
-  - echo hello world 23456768
+build:
+  image: ubuntu:14.04
+  script:
+    - echo hello world 23456768
