@@ -1,10 +1,9 @@
 build:
   image: node:5.2.0
   commands:
-    - echo hello world 23456768
-    - node -e "console.log('asdf');"
-    - node -v
+    - npm install nvm -g
     - apt-get update && apt-get install lftp
+    - npm install --production
   cache:
     mount:
       - node_modules
