@@ -10,5 +10,6 @@ build:
       - node_modules
       - .git
 deploy:
-  commands:
-    - echo deploy
+  scripts:
+    commands:
+      - echo deploy
