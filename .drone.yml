@@ -4,3 +4,4 @@ build:
     - echo hello world 23456768
     - node -e "console.log('asdf');"
     - node -v
+    - apt-get install lftp
