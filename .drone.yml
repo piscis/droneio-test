@@ -13,3 +13,4 @@ deploy:
   piscis/drone-bash:
     script:
       - echo deploy
+      - node -v
