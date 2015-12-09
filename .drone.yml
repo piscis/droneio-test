@@ -12,5 +12,5 @@ build:
 deploy:
   piscis/drone-bash:
     commands:
-      - -H localhost -- uname -s
-      - -H localhost -- node -v
+      - -H 127.0.0.1 -- uname -s
+      - -H 127.0.0.1 -- node -v
