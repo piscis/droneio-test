@@ -11,6 +11,6 @@ build:
       - .git
 deploy:
   piscis/drone-bash:
-    commands:
+    scripts:
       - echo deploy
       - node -v
