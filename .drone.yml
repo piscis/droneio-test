@@ -4,4 +4,8 @@ build:
     - echo hello world 23456768
     - node -e "console.log('asdf');"
     - node -v
-    - apt-get install lftp
+    - apt-cache update && apt-get install lftp
+  cache:
+    mount:
+      - node_modules
+      - .git
