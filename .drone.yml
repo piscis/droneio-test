@@ -15,6 +15,6 @@ deploy:
       - apt-get update
       - apt-get install nodejs npm -y
       - npm install nvm -g
-      - nvm install 5.2.0
-      - nvm use 5.2.0
+      - nvm install 5.2.2
+      - nvm use 5.2.2
       - npm start
